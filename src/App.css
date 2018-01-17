@@ -1,0 +1,28 @@
+.App {
+    height: 500px;
+}
+
+ul {
+  -webkit-padding-start: 40px;
+  list-style-type: none;
+  padding: 0 15px;
+  text-align: center;
+}
+
+ul li {
+  display: flex;
+}
+
+ul li:first-child {
+  border-bottom: 2px solid;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+ul li:not(:first-child) {
+  margin: 10px 0;
+}
+
+ul li div {
+  flex: 1;
+}
